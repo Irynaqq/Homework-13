@@ -38,7 +38,6 @@ svg {
 
 .shape {
   stroke-width: 5;
-  vector-effect: non-scaling-stroke;
   shape-rendering: geometricPrecision;
 }
 

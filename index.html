@@ -2,10 +2,10 @@
 <html lang="uk">
 
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SVG фігури</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -16,17 +16,26 @@
           Чотири фігури: квадрат, прямокутник, коло, еліпс.
         </desc>
 
-        <!-- Квадрат -->
-        <rect class="shape shape--square" x="24" y="24" width="80" height="80" rx="4" />
+        <rect class="shape shape--square" x="24" y="24" width="80" height="80" rx="4"
+          vector-effect="non-scaling-stroke">
+          <title>Квадрат</title>
+        </rect>
 
         <!-- Прямокутник -->
-        <rect class="shape shape--rect" x="140" y="24" width="160" height="80" rx="10" />
+        <rect class="shape shape--rect" x="140" y="24" width="160" height="80" rx="10"
+          vector-effect="non-scaling-stroke">
+          <title>Прямокутник</title>
+        </rect>
 
-        <!-- Коло -->
-        <circle class="shape shape--circle anim-color" cx="84" cy="172" r="40" />
+        <!-- Коло (з анімацією) -->
+        <circle class="shape shape--circle anim-color" cx="84" cy="172" r="40" vector-effect="non-scaling-stroke">
+          <title>Коло</title>
+        </circle>
 
         <!-- Еліпс -->
-        <ellipse class="shape shape--ellipse" cx="260" cy="172" rx="70" ry="42" />
+        <ellipse class="shape shape--ellipse" cx="260" cy="172" rx="70" ry="42" vector-effect="non-scaling-stroke">
+          <title>Еліпс</title>
+        </ellipse>
       </svg>
     </div>
   </body>
