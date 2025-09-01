@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uk">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SVG фігури</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <svg viewBox="0 0 400 240" role="img" aria-labelledby="svgTitle svgDesc">
+        <title id="svgTitle">Демонстрація SVG</title>
+        <desc id="svgDesc">
+          Чотири фігури: квадрат, прямокутник, коло, еліпс.
+        </desc>
+
+        <!-- Квадрат -->
+        <rect class="shape shape--square" x="24" y="24" width="80" height="80" rx="4" />
+
+        <!-- Прямокутник -->
+        <rect class="shape shape--rect" x="140" y="24" width="160" height="80" rx="10" />
+
+        <!-- Коло -->
+        <circle class="shape shape--circle anim-color" cx="84" cy="172" r="40" />
+
+        <!-- Еліпс -->
+        <ellipse class="shape shape--ellipse" cx="260" cy="172" rx="70" ry="42" />
+      </svg>
+    </div>
+  </body>
+
+</html>
